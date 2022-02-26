@@ -5,13 +5,14 @@
     background-color: rgb(242, 215, 190);
 } */
 
-.item > img {
-    height: 400px !important;
+.item  {
+    height: 500px !important;
     width:100%
 }
 
 h2{
-    text-align: center;      
+    text-align: center;
+    margin-top: 30px;      
 }
 p{
     font-size: 18px;
@@ -20,18 +21,28 @@ p{
 h6{
     text-align: center;
 }
-.col-md-3{
+.r-serv{
+    position:absolute;
+}
+.r-servtext{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 114px;
+    background-color:#ffffff87;
+}
+/* .col-md-3{
     border:1px solid black;
-    width:20%;
     height:200px;
     margin:29px;
+    width:20%;
 }
 
 .col-md-3 > img{
     width: 115%;
     height: 161px;
     margin-left: -15px;
-}
+} */
 #sal-slider1{
     height:220px;
     background-color: black;
