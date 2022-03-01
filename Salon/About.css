@@ -1,0 +1,23 @@
+.dark-mode button {
+    background: black;
+    color: white;
+  }
+  
+  .dark-mode .sun-icon,
+  .moon-icon {
+    display: none;
+  }
+  
+  .dark-mode .moon-icon {
+    display: inline;
+  }
+
+  body{
+    background-color: white;
+    color:black;
+  }
+
+  .dark-mode{
+    background-color: black;
+    color:white;
+  }
