@@ -9,7 +9,8 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <!-- <nav class="navbar navbar-expand-lg fixed-top"> -->
+              <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Sparkle Beauty Zone</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +36,15 @@
                       <!-- <li>Book an appointment</li> -->
                     <li><a href="#"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
                     <li><a href="#"><i class="bi bi-person-plus"></i> SignUp</a></li>
-                    <li><button class="btn btn-outline-light btn-rounded mode" onclick="changeMode()">SwitchMode</button></li>
+                    <li><a onclick="darkmode()" id="Knop"> 
+                       <span class="sun-icon">
+                          <i class="bi bi-sun-fill" id="zon" style="color:#ffde08;"></i>
+                       </span>
+                        <span class="moon-icon">
+                          <i class="bi bi-moon-fill" id="maan" style="color:#0c3cfa;"></i>
+                       </span>
+                      </a></li>
+                    <!-- <li><button class="btn btn-outline-light btn-rounded mode" onclick="changeMode()">SwitchMode</button></li> -->
                   </ul>
                  </div>
                 </nav>
@@ -75,23 +84,23 @@
                 <div class="col-md-3">
                   <div class="card" >
                     <img src="https://i.ibb.co/WzwJF2c/img.jpg" alt="img"class="card-img-top r-serv"/>
-                    <div class="card-body r-servtext">
+                    <div class="card-body r-servtext  shadow p-3 mb-5 ">
                       <p class="card-text">pedicure & menicure</p>
                     </div>
                   </div>
                 </div> 
                 <div class="col-md-3">
-                  <div class="card" >
+                  <div class="card " >
                     <img src="https://i.ibb.co/WzwJF2c/img.jpg" alt="img"class="card-img-top r-serv"/>
-                    <div class="card-body r-servtext">
+                    <div class="card-body r-servtext shadow p-3 mb-5">
                       <p class="card-text">Hair Spa</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <div class="card" >
+                  <div class="card " >
                     <img src="https://i.ibb.co/WzwJF2c/img.jpg" alt="img" class="card-img-top r-serv"/>
-                    <div class="card-body r-servtext">
+                    <div class="card-body r-servtext  shadow p-3 mb-5">
                       <p class="card-text">Fruit Facial</p>
                     </div>
                   </div>
@@ -99,7 +108,7 @@
                 <div class="col-md-3">
                   <div class="card" >
                     <img src="https://i.ibb.co/WzwJF2c/img.jpg" alt="img" class="card-img-top r-serv" />
-                    <div class="card-body r-servtext">
+                    <div class="card-body r-servtext  shadow p-3 mb-5">
                       <p class="card-text">Daily Glam Makeup</p>
                     </div>
                   </div>
@@ -155,7 +164,7 @@
       </div>
       <section class="">
         <!-- Footer -->
-        <footer class="bg-secondary text-white">
+        <footer class="footer text-white">
           <!-- Grid container -->
           <div class="container p-4">
             <!--Grid row-->
